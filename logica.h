@@ -25,7 +25,9 @@ public:
     // #letra #numero
     bool ordenar(char* coordernada);
 
-    bool buscardor(char rival,short f ,short c );
+    // se encarga de decir si por ese camino
+    // se puede cambiar las fichas de color
+    bool buscardor(char rival,short f ,short c, short i, short e );
 
 
 
